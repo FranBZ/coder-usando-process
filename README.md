@@ -44,7 +44,9 @@ carpetas separadas. No incluir los node_modules.</sup>
     ```
     MONGO_USER = "<usuario de mongo atlas>"
     MONGO_PASS = "<contraseña de mongo atlas>"
+    MONGO_ATLAS_ENDPOINT "<@clusterx.asd123.mongodb.net/test>"
+    GOOGLE_APLICATION_CREDENTIALS = "<google credentials>"
     ```
-- Una vez finalizado el punto anterior, ejecutar el comando ``` npm run start ```
+- Una vez finalizado el punto anterior, ejecutar el comando ``` npm run start ``` o ``` npm run start -- --puerto <n° de puerto>```
 - Luego dirigite en tu navegador de preferencia para probar los diferentes endpoints
 para testear la app
